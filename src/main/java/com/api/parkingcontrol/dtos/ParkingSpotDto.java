@@ -6,8 +6,10 @@ import javax.validation.constraints.Size;
 public class ParkingSpotDto {
 
     @NotBlank
+    private String parkingSpotNumber;
+    @NotBlank
     @Size(max = 7)
-    private String licencePlateCar;
+    private String licensePlateCar;
     @NotBlank
     private String brandCar;
     @NotBlank
@@ -20,9 +22,7 @@ public class ParkingSpotDto {
     private String apartment;
     @NotBlank
     private String block;
-    @NotBlank
 
-    private String parkingSpotNumber;
 
     public String getParkingSpotNumber() {
         return parkingSpotNumber;
@@ -33,11 +33,11 @@ public class ParkingSpotDto {
     }
 
     public String getLicencePlateCar() {
-        return licencePlateCar;
+        return licensePlateCar;
     }
 
     public void setLicencePlateCar(String licencePlateCar) {
-        this.licencePlateCar = licencePlateCar;
+        this.licensePlateCar = licencePlateCar;
     }
 
     public String getBrandCar() {
