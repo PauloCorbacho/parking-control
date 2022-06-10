@@ -32,12 +32,12 @@ public class ParkingSpotDto {
         this.parkingSpotNumber = parkingSpotNumber;
     }
 
-    public String getLicencePlateCar() {
+    public String getLicensePlateCar() {
         return licensePlateCar;
     }
 
-    public void setLicencePlateCar(String licencePlateCar) {
-        this.licensePlateCar = licencePlateCar;
+    public void setLicensePlateCar(String licensePlateCar) {
+        this.licensePlateCar = licensePlateCar;
     }
 
     public String getBrandCar() {
